@@ -3,7 +3,6 @@ require 'pry'
 
 def get_user_input
   gets.chomp
-  binding.pry
 end
 
 def prompt_user
@@ -13,6 +12,7 @@ def prompt_user
 end
 
 def selection(num)
+  binding.pry
   if num = 2
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 1
