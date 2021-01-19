@@ -12,7 +12,7 @@ def prompt_user
 end
 
 def selection(num)
-  num = get_user_input
+  num.gets.chomp!
   binding.pry
   if num = 2
      "YUM YUM MUNCH MUNCH MUNCH"
